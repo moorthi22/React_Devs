@@ -1,0 +1,43 @@
+table {
+  margin: 2px;
+  border: 0px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  border-style: ridge;
+}
+
+th {
+  height: 50px;
+}
+
+tr {
+  height: 35px;
+}
+
+tr:nth-child(even) {
+  background-color: silver;
+}
+a:hover {
+  color: darkblue;
+}
+
+#prodopr {
+  display: inline-block;
+}
+
+input[type="text"] {
+  width: 20% 80%;
+  padding-left: 40px;
+  margin: 8px 4px;
+  right: 50%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.FormContainer {
+  background-color: whitesmoke;
+}
